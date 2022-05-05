@@ -7,7 +7,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace baaniyb\OpenWeatherClient;
+namespace Baaniyb\WeatherPackage;
 
 /**
  * Represents an OpenWeather location.

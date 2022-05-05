@@ -7,7 +7,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace baaniyb\OpenWeatherClient;
+namespace Baaniyb\WeatherPackage;
 
 class OpenWeatherClient
 {
@@ -37,7 +37,7 @@ class OpenWeatherClient
 
         $data = json_decode($response->getBody(), true);
 
-        return new \Baaniyb\OpenWeatherClient\WeatherDay(
+        return new \Baaniyb\WeatherPackage\WeatherDay(
             new \DateTime('now'),
             $location,
             'imperial',
